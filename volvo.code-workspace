@@ -1,0 +1,30 @@
+{
+	"folders": [
+    {
+      "name": "🌍 @volvo/web",
+      "path": "./apps/web"
+    },
+    {
+      "name": "📦 @volvo/ui",
+      "path": "./packages/ui"
+    },
+    {
+      "name": "📚 Root",
+      "path": "."
+    },
+    {
+      "path": "../god-frontend-code-test"
+    }
+  ],
+	"settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode"
+    ]
+  }
+}
