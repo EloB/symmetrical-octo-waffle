@@ -1,10 +1,29 @@
+import "@volvo/ui/emotion";
+
 import type {
-  ComponentProps,
   ElementType,
   ReactElement,
   ComponentPropsWithoutRef,
   ComponentPropsWithRef,
 } from "react";
+
+export type Frame = {
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+};
+
+export type Parts = "body" | "shadow" | "frontwheel" | "backwheel" | "outline";
+export type Spritesheet = {
+  src: string;
+  frames: Record<
+    Parts,
+    {
+      frame: Frame;
+    }
+  >;
+};
 
 export type Car = {
   id: string;
